@@ -154,7 +154,7 @@ if __name__ ==  "__main__":
     if len(user_list) == len(passwd_list):
         push = ''
         for line in range(0,len(user_list)):
-            if len(setp_array) == 3:
+            if len(setp_array) == 2:
                 step = str(random.randint(int(setp_array[0]),int(setp_array[1])))
             elif str(step) == '0':
                 step = ''
